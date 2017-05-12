@@ -12,5 +12,7 @@ DataDirectory: "/opt/kafka/data"
 Component: "kafka"
 
 zookeeper:
+  install: true
+  externalHostName: ""
   Name: "zk"
   Component: "zk"
